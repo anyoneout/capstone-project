@@ -19,6 +19,7 @@ My project is to create a new site for a goat farm that sells goat cheese
 
 ## Contact
 
+Chris Alinaghian @ chrisdafur@gmail.com
 
 
 ## Acknowledgements
