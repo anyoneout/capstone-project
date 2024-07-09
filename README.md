@@ -13,6 +13,9 @@ My project is to create a new site for a goat farm that sells goat cheese
 ## Roadmap
 
 ## Wireframe
+![wireframe of index.html](img/index.png)
+![wireframe of cheeses.html](img/cheeses.png)
+![wireframe of gallery.html](img/gallery.png)
 
 ## Contact
 
