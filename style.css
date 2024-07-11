@@ -1,0 +1,15 @@
+
+
+.picContainer {
+  position: relative;
+}
+
+.pic2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+* {
+  border: solid 1px black;
+}
