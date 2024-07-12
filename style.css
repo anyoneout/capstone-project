@@ -5,12 +5,34 @@
 
 .pic2 {
   position: absolute;
-  top:45px;
-  left: 60px;
+  top:50px;
+  left: 50px;
 }
 
+@font-face {
+  font-family: "OPTIPiranesi";
+  src: url("./fonts/OPTIPiranesi-Italic.otf");
+}
 
+@font-face {
+  font-family: "clarendon-bt-pro-bold-condensed";
+  src: url("./fonts/clarendon-bt-pro-bold-condensed.otf");
+}
 
+.navbar-nav > .active > a {
+  color: #d9d2cc;
+}
+.nav-item > a:hover {
+  color: #d9d2cc;
+}
+
+header {
+  font-family: "clarendon-bt-pro-bold-condensed";
+}
 * {
   border: solid 1px black;
+}
+
+/*body {
+  font-family: "OPTIPiranesi";
 }
