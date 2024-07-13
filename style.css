@@ -29,10 +29,16 @@
 header {
   font-family: "clarendon-bt-pro-bold-condensed";
 }
-* {
-  border: solid 1px black;
-}
 
+
+.goat-image {
+    max-width: 400px;
+    
+}
 /*body {
   font-family: "OPTIPiranesi";
+}
+
+* {
+  border: solid 1px black;
 }
