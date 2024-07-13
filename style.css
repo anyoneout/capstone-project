@@ -32,13 +32,14 @@ header {
 
 
 .goat-image {
-    max-width: 400px;
+    max-width: 100%;
     
+}
+
+
+/* {
+  border: solid 1px black;
 }
 /*body {
   font-family: "OPTIPiranesi";
-}
-
-* {
-  border: solid 1px black;
 }
