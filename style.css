@@ -1,14 +1,5 @@
 
-.picContainer {
-  position: relative;
-}
 
-.pic2 {
-  position: absolute;
-  top:25px;
-  left: 25px;
-  max-width: 200px
-}
 
 @font-face {
   font-family: "OPTIPiranesi";
@@ -21,26 +12,60 @@
 }
 
 .navbar-nav > .active > a {
-  color: #d9d2cc;
+  color: #f0c791;
 }
 .nav-item > a:hover {
-  color: #d9d2cc;
+  color: #f0c791;
 }
 
 header {
   font-family: "clarendon-bt-pro-bold-condensed";
 }
 
+.farm-image {
+  max-width: 100%; 
+}
 
+.cheese-image {
+  max-width: 18%;
+}
 .goat-image {
     max-width: 100%;
-    
+    border: solid 3px white;
+}
+
+.hline {
+  border-bottom: solid 2px black;
 }
 
 
-/* {
+
+
+* {
   border: solid 1px black;
 }
 /*body {
   font-family: "OPTIPiranesi";
+}
+
+
+.pic2 {
+  position: absolute;
+  top:20px;
+  left:0px;
+  max-width: 20%;
+  opacity: 100%;
+}
+
+
+.gborder-bottom {
+  border-bottom: solid 2px white;
+}
+
+.gborder-right {
+  border: solid 2px white;
+}
+
+.navbar-trans {
+  background: transparent !important;
 }
