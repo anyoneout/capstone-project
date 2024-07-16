@@ -27,7 +27,7 @@ header {
 }
 
 .cheese-image {
-  max-width: 18%;
+  max-height: 150px;
 }
 .goat-image {
     max-width: 100%;
@@ -46,6 +46,7 @@ header {
   max-width: 180px;
   opacity: 100%;
 }
+
 
 /* {
   border: solid 1px black;
