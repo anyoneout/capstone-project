@@ -47,10 +47,20 @@ header {
   opacity: 100%;
 }
 
-
+.piranesiFont {
+  font-family: "OPTIPiranesi";
+  font-size: 30px;
+  
+}
+.cheeseName {
+  text-decoration: underline;
+  
+}
 /* {
   border: solid 1px black;
 }
+
+
 /*body {
   font-family: "OPTIPiranesi";
 }
