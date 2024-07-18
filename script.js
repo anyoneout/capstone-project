@@ -13,12 +13,11 @@ bordersButton.onclick = imgBorderCreator;
 
 
   function largeGoatImg(clicked_id) {
-    var expandedGoat = document.getElementById(clicked_id);
-    
+    let expandedGoat = document.getElementById(clicked_id);
     expandedGoat.style.width="100%";
     expandedGoat.style.height="100%";
-    var url=expandedGoat.getAttribute('src');
-    window.open(url,'Image','width=expandedGoat.style.width, height=expandedGoat.style.height,resizable=1');
+    let url=expandedGoat.getAttribute('src');
+    window.open(url,'Image','width=expandedGoat.style.width, height=expandedGoat.style.height,resizable=no,status=no, scrollbars=no, toolbar=no, menubar=no ');
       }
 
     /* let bordersClick = document.getElementById("bordersButton");
