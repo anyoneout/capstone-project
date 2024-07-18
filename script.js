@@ -21,9 +21,7 @@ function largeGoatImg(clicked_id) {
   window.open(url,"Image","resizable=no,status=no, scrollbars=no, toolbar=no, menubar=no, width=expandedGoat.style.width, height=expandedGoat.style.height,");
 }
 
-let freshChoice;
-let agedChoice;
-
+// make cheeses visible on button click
 function cheeseChoice(clicked_id) {
 
   let cheeseOpen = document.getElementById(clicked_id);
