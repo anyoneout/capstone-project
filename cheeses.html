@@ -39,15 +39,24 @@
   <div class="container-sm my-5">
     <div class="row align-items-center my-5">
       <div class="col-12 p-0 text-center justify-content-center mb-5">
-        <img src="img/AMLogo2bw.png" class="w-50 d-lg-none" alt="">
+        <img src="img/AMLogo2bw.png" class="w-50 d-md-none" alt="">
       </div>
+
+      
       <div class="col-12 p-0 mt-5">
         <h1 class="text-center display-1">Cheese!</h1>
       </div>
+      
+      
+      <div class="text-center">
+      <button id="freshButton" onClick="cheeseChoice(this.id)" style="width: 100px">fresh</button>
+      <button id="agedButton" onClick="cheeseChoice(this.id)" style="width: 100px">aged</button>
+      </div>
+
         <div class="col-offset-2 col-md-10 offset-md-1 justify-content-center">
           <p class="text-start mt-5 h4">Fresh:</p>  
           <br>
-            <ul>
+            <ul style="visibility: hidden;" id="freshList">
               <li>Basil</li>
               <li>Garlic Scape</li>
               <li>Roasted Chili w/ Garlic</li>
@@ -61,7 +70,7 @@
 
   
   
-  <div class="container-sm my-5 piranesiFont">
+  <div class="container-sm my-5 piranesiFont" style="visibility: hidden;" id="agedList">
     <div class="row text-start align-items-center">   
       <div class="col-4 p-0 text-center" >
         <img src="img/cheeseTrans1.png" alt="" class="cheese-image">
@@ -154,5 +163,6 @@
   </div>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

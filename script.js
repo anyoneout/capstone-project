@@ -21,6 +21,23 @@ function largeGoatImg(clicked_id) {
   window.open(url,"Image","resizable=no,status=no, scrollbars=no, toolbar=no, menubar=no, width=expandedGoat.style.width, height=expandedGoat.style.height,");
 }
 
+let freshChoice;
+let agedChoice;
+
+function cheeseChoice(clicked_id) {
+
+  let cheeseOpen = document.getElementById(clicked_id);
+
+  if(cheeseOpen === freshButton) {
+    freshList.style.visibility = "visible";
+  }
+  else if (cheeseOpen === agedButton) {
+  agedList.style.visibility = "visible";
+  } else {
+
+  }
+}
+
 
  // button event listener for borders     
     /* let bordersClick = document.getElementById("bordersButton");
