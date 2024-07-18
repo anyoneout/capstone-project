@@ -23,4 +23,6 @@ Chris Alinaghian @ chrisdafur@gmail.com
 
 
 ## Acknowledgements
-
+stackoverflow.com
+w3schools.com
+getbootstrap.com

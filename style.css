@@ -29,9 +29,13 @@ header {
 .cheese-image {
   max-height: 150px;
 }
+.goat-container {
+  border: solid 1px white;
+  
+}
 .goat-image {
     max-width: 100%;
-    border: solid 3px white;
+    
 }
 
 .hline {
@@ -42,7 +46,7 @@ header {
 .pic2 {
   position: absolute;
   top:0px;
-  left:100px;
+  left:150px;
   max-width: 180px;
   opacity: 100%;
 }
@@ -56,7 +60,8 @@ header {
   text-decoration: underline;
   
 }
-/* {
+
+* {
   border: solid 1px black;
 }
 
