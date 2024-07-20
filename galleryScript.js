@@ -1,8 +1,6 @@
 //turn on border button
 
 let imgNumber = document.images.length;
-
-
 function imgBorderCreator() {
   for (let i = 1; i < imgNumber; i++) {
     let img;
@@ -13,6 +11,7 @@ function imgBorderCreator() {
 bordersButton.onclick = imgBorderCreator;
 
 // open new windows with enlarged goat images
+
 function largeGoatImg(clicked_id) {
   let expandedGoat = document.getElementById(clicked_id);
   expandedGoat.style.width = "100%";
