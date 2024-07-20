@@ -39,7 +39,7 @@ header {
 }
 
 .hline {
-  border-bottom: solid 6px rgb(255, 208, 0);
+  border-bottom: solid 1px rgb(0, 0, 0);
 }
 
 
@@ -73,7 +73,7 @@ header {
 }
 
 
-/*body {
+*body {
   font-family: "OPTIPiranesi";
 }
 
