@@ -62,13 +62,13 @@ header {
 }
 
 .picBwLogo {
-  position: absolute;
+  position: relative;
   top:30px;
   left:183px;
   max-width: 134px;
   opacity: 100%;
 }
-/* {
+* {
   border: solid 1px black;
 }
 
