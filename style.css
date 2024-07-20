@@ -43,7 +43,7 @@ header {
 }
 
 
-.pic2 {
+.picColorLogo {
   position: absolute;
   top:0px;
   left:150px;
@@ -61,6 +61,13 @@ header {
   
 }
 
+.picBwLogo {
+  position: absolute;
+  top:30px;
+  left:183px;
+  max-width: 134px;
+  opacity: 100%;
+}
 /* {
   border: solid 1px black;
 }
